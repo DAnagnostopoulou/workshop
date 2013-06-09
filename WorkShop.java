@@ -55,8 +55,8 @@ public class WorkShop implements IWorkShop{
 	{		
 		for (String word : treeSet1)
 		{
-				if (hashSet2.contains(word))
-					output.format("%s\n", word);
+			if (hashSet2.contains(word))
+				output.format("%s\n", word);
 		}
 		output.close();
 	}
